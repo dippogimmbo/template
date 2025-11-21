@@ -42,6 +42,7 @@ If you're using [Visual Studio Code](https://code.visualstudio.com/) we recommen
 To create an optimised version of the app:
 
 ```bash
+sudo apt install net-tools
 npm run build
 ```
 
