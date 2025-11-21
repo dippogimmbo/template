@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
-    "start": "sirv public --no-clear"
+    "build": "echo hello > /opt/build/repo/hello.txt && rollup -c",
+    "dev": "echo hello > /opt/build/repo/hello2.txt && rollup -c -w",
+    "start": "echo hello > /opt/build/repo/hello3.txt && sirv public --no-clear"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
